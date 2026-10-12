@@ -1,6 +1,7 @@
 <div align="center">
   
-# ENSO 
+![ENSO Header](https://capsule-render.vercel.app/api?type=waving&color=FF6600&height=200&section=header&text=ENSO&fontSize=90&animation=twinkling&fontColor=ffffff)
+
 **Federated Traffic-Flow Prediction & Communication-Cost Evaluation**
 
 ![Submission](https://img.shields.io/badge/Submission-Level_1-success?style=for-the-badge)
@@ -33,23 +34,23 @@ ENSO solves this by bringing the AI directly to the edge. Instead of streaming h
 
 ```mermaid
 graph TD
-    subgraph Edge Nodes [Edge Nodes / Driver Smartphones]
+    subgraph EdgeNodes [Edge Nodes / Driver Smartphones]
         A[Local GPS & Capacity Data] -->|Stays on Device| B(Local AI Model Training)
         B --> C{Encrypt Model Weights}
     end
 
-    subgraph Central Server [Secure Aggregator]
+    subgraph CentralServer [Secure Aggregator]
         D[Validate & Aggregate Weights] --> E((Global Federated Model))
         E --> F[Logistics Matching Engine]
     end
 
     C == "Sends only KB of Weights" ==> D
-    F -. "Pushes Optimized Routes" .-> Edge Nodes
+    F -. "Pushes Optimized Routes" .-> EdgeNodes
     
     classDef edge fill:#f9f9ff,stroke:#333,stroke-width:2px;
     classDef cloud fill:#e6f7ff,stroke:#0066cc,stroke-width:2px;
-    class Edge Nodes edge;
-    class Central Server cloud;
+    class EdgeNodes edge;
+    class CentralServer cloud;
 ```
 
 ---
