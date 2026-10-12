@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🌐 ENSO 
+# ENSO 
 **Federated Traffic-Flow Prediction & Communication-Cost Evaluation**
 
 ![Submission](https://img.shields.io/badge/Submission-Level_1-success?style=for-the-badge)
