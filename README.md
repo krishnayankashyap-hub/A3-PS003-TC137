@@ -15,7 +15,7 @@
 ---
 
 ## 🎥 Pitch & Introduction Video
-> **[👉 CLICK HERE TO WATCH THE TEAM ASTRANOVA VIDEO](INSERT_YOUR_YOUTUBE_LINK_HERE)**
+> **[👉 CLICK HERE TO WATCH THE TEAM ASTRANOVA VIDEO](https://youtu.be/WlMptt8Gn2o)**
 
 ---
 
